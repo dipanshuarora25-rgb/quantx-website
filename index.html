@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QuantX Analytics – Python Finance Engine</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- NAVBAR -->
+  <header class="nav">
+    <div class="container nav-inner">
+      <div class="logo">
+        <span class="logo-main">QuantX</span>
+        <span class="logo-sub">Analytics</span>
+      </div>
+      <nav class="nav-links">
+        <a href="#features">Features</a>
+        <a href="#markets">Markets</a>
+        <a href="#pricing">Pricing</a>
+        <a href="#how-it-works">How it works</a>
+        <a href="#contact" class="btn-nav">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container hero-inner">
+      <div class="hero-text">
+        <h1>Python-Powered Equity Research for FTSE, NSE & NYSE.</h1>
+        <p>
+          QuantX Analytics is a Python finance engine that pulls real market data,
+          computes key ratios, and generates exportable datasets for professional-
+          grade stock analysis and equity research.
+        </p>
+        <div class="hero-actions">
+          <a href="#pricing" class="btn-primary">Get the Toolkit</a>
+          <a href="#how-it-works" class="btn-secondary">See how it works</a>
+        </div>
+        <p class="hero-note">
+          Built for students, analysts, traders and finance professionals who want
+          serious, data-driven insight – without paying for expensive terminals.
+        </p>
+      </div>
+      <div class="hero-card">
+        <h2>What you get in v1.0</h2>
+        <ul>
+          <li>📈 Multi-market data engine (FTSE / NSE / NYSE)</li>
+          <li>📊 Automated ratio & fundamentals analysis</li>
+          <li>📁 Clean CSV exports ready for Excel / Power BI</li>
+          <li>🧮 Python code you can extend & customise</li>
+          <li>📕 Step-by-step installation & usage guide (PDF)</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- FEATURES -->
+  <section id="features" class="section">
+    <div class="container">
+      <h2>Core Features</h2>
+      <p class="section-intro">
+        QuantX Analytics gives you a complete toolkit to analyse any listed company
+        across major markets using CPython and open data.
+      </p>
+      <div class="grid-3">
+        <div class="card">
+          <h3>Multi-Exchange Support</h3>
+          <p>
+            Track companies on the London Stock Exchange (FTSE-style tickers),
+            National Stock Exchange of India (NSE), and US markets (NYSE/Nasdaq)
+            from one unified script.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Fundamental Ratios</h3>
+          <p>
+            Automatically compute net margin, ROE, current ratio, P/E, P/B and
+            more using real financial statements, formatted for quick comparison.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Price History & Signals</h3>
+          <p>
+            Pull historical prices, compute moving averages, and generate clean
+            CSVs you can plug into your own strategies, dashboards or reports.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Export-Ready Data</h3>
+          <p>
+            All outputs are saved as tidy CSV files so you can build Excel models,
+            dashboards, or presentation-ready charts in minutes.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Clean, Editable Code</h3>
+          <p>
+            Written in clear, modular Python so you can extend it with your own
+            screeners, bots, or equity research automation.
+          </p>
+        </div>
+        <div class="card">
+          <h3>Perfect for Careers & Projects</h3>
+          <p>
+            Ideal for finance students, junior analysts, and portfolio builders
+            who want to stand out with real, working tools.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MARKETS -->
+  <section id="markets" class="section section-alt">
+    <div class="container">
+      <h2>Three Markets. One Engine.</h2>
+      <div class="grid-3 markets-grid">
+        <div class="card market-card">
+          <h3>FTSE (UK)</h3>
+          <p>
+            Analyse blue-chip UK names with <code>.L</code> tickers like HSBA.L,
+            BP.L, SHEL.L, and more. Perfect for income-focused and global investors.
+          </p>
+        </div>
+        <div class="card market-card">
+          <h3>NSE (India)</h3>
+          <p>
+            Cover the high-growth Indian market using <code>.NS</code> tickers such
+            as RELIANCE.NS, HDFCBANK.NS, TCS.NS, and others from NIFTY-style lists.
+          </p>
+        </div>
+        <div class="card market-card">
+          <h3>NYSE / Nasdaq (US)</h3>
+          <p>
+            Pull data for global heavyweights like AAPL, MSFT, AMZN and more to
+            benchmark strategies vs. the world's largest equity market.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section id="how-it-works" class="section">
+    <div class="container">
+      <h2>How QuantX Analytics Works</h2>
+      <div class="steps">
+        <div class="step">
+          <div class="step-number">1</div>
+          <div>
+            <h3>Install the Toolkit</h3>
+            <p>
+              Download the project, create a virtual environment, and install
+              dependencies with a single command using <code>requirements.txt</code>.
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">2</div>
+          <div>
+            <h3>Set Your Markets & Tickers</h3>
+            <p>
+              Use the <code>config.py</code> file to define FTSE, NSE and NYSE
+              watchlists, edit default periods and intervals, and customise your universe.
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">3</div>
+          <div>
+            <h3>Run the Engine</h3>
+            <p>
+              Call the main script from your terminal to fetch price history,
+              fundamentals and ratio snapshots for individual tickers or entire markets.
+            </p>
+          </div>
+        </div>
+        <div class="step">
+          <div class="step-number">4</div>
+          <div>
+            <h3>Analyse & Build on Top</h3>
+            <p>
+              Open the generated CSVs in Excel, Power BI or Jupyter, or extend the
+              code to build dashboards, screeners, bots and full equity research reports.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PRICING -->
+  <section id="pricing" class="section section-alt">
+    <div class="container">
+      <h2>Pricing</h2>
+      <p class="section-intro">
+        One-time purchase. Lifetime access. Use QuantX Analytics for your studies,
+        side projects, portfolio tracking or freelance clients.
+      </p>
+      <div class="pricing-grid">
+        <div class="card pricing-card">
+          <h3>Student / Personal</h3>
+          <p class="price">£29 <span>one-time</span></p>
+          <ul>
+            <li>Full Python project (source code)</li>
+            <li>FTSE + NSE + NYSE config examples</li>
+            <li>Ratio engine & CSV exports</li>
+            <li>Setup & usage guide (PDF)</li>
+          </ul>
+          <a href="#contact" class="btn-primary full-width">Get Access</a>
+        </div>
+        <div class="card pricing-card pricing-card-highlight">
+          <h3>Pro Analyst</h3>
+          <p class="price">£59 <span>one-time</span></p>
+          <ul>
+            <li>Everything in Student / Personal</li>
+            <li>Extended analytics utilities</li>
+            <li>Screening templates & examples</li>
+            <li>Client-ready output structure</li>
+          </ul>
+          <a href="#contact" class="btn-primary full-width">Request Pro Version</a>
+        </div>
+      </div>
+      <p class="pricing-note">
+        Team / classroom licenses and custom builds are available on request.
+      </p>
+    </div>
+  </section>
+
+  <!-- FAQ -->
+  <section class="section">
+    <div class="container">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq">
+        <div class="faq-item">
+          <h3>Do I need advanced Python skills?</h3>
+          <p>
+            No. If you can open a terminal, install packages, and run basic commands,
+            you can use QuantX Analytics. The code is commented and structured so you
+            can learn as you go.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3>Which data source does this use?</h3>
+          <p>
+            The engine uses publicly available market data through common Python
+            libraries. It is designed for educational, research and personal analysis
+            purposes only.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3>Can I use this for client work?</h3>
+          <p>
+            Yes. You can use the toolkit to power your freelance equity research,
+            dashboards, reports and analytics as long as you comply with local
+            regulations and platform terms.
+          </p>
+        </div>
+        <div class="faq-item">
+          <h3>Is this financial advice?</h3>
+          <p>
+            No. QuantX Analytics is a technical toolkit and does not provide any
+            personalised investment advice or recommendations.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT / CTA -->
+  <section id="contact" class="section section-contact">
+    <div class="container contact-inner">
+      <div>
+        <h2>Ready to use QuantX Analytics?</h2>
+        <p>
+          To purchase access, collaborate, or request a custom build (dashboard,
+          screener, report automation), get in touch:
+        </p>
+        <ul class="contact-list">
+          <li>📧 Email: <a href="mailto:dipanshuarora25@gmail.com>dipanshuarora25@gmail.com</a></li>
+          </ul>
+        <p class="small">
+       </p>
+      </div>
+      <div class="contact-card">
+        <h3>What happens after you contact?</h3>
+        <ol>
+          <li>You choose your plan (Student / Pro).</li>
+          <li>Payment is completed via your preferred method.</li>
+          <li>You receive the full project folder + documentation.</li>
+          <li>You can start analysing FTSE, NSE and NYSE immediately.</li>
+        </ol>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="container footer-inner">
+      <span>© <span id="year"></span> QuantX Analytics. All rights reserved.</span>
+      <span class="footer-small">Built with Python, for serious market analysis.</span>
+    </div>
+  </footer>
+
+  <script>
+    // Set current year in footer
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
+
